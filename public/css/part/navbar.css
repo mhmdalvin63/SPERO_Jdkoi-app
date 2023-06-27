@@ -1,8 +1,43 @@
-
+#navbar_utama{
+    background-color: black;
+}
+.navbar-brand{
+    margin: 0!important;
+}
+.navbar-brand img{
+    width: calc(25% + 0.8vmin);
+}
+.merk p{
+    font-weight: bold;
+    font-size: calc(60% + 0.8vmin);
+}
 .navbar-nav a{
     color: white;
     font-size: calc(75% + 0.8vmin);
 }
 .nav-link.active{
     color: gold!important;
+}
+
+@media (max-width: 768px) {
+    .navbar-brand{
+        width: 100%;
+    }
+    .navbar-brand img{
+        width: calc(12.5% + 0.8vmin);
+    }
+    .merk p{
+        font-size: calc(25% + 0.8vmin);
+    }
+}
+@media (max-width: 992px) {
+    .navbar-brand{
+        width: 100%;
+    }
+    .navbar-brand img{
+        width: calc(10% + 0.8vmin);
+    }
+    .merk p{
+        text-align: center;
+    }
 }

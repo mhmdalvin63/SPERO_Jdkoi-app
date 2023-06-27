@@ -1,12 +1,17 @@
 <link rel="stylesheet" href=" {{ asset('../css/part/navbar.css')}}">
 
-<div class="parent">
-    <nav class="navbar navbar-expand-lg navbar-dark bg-dark py-4">
+    <nav class="navbar navbar-expand-lg navbar-dark py-2" id="navbar_utama">
         <div class="container">
-            <a href="#" class="navbar-brand">Brand</a>
-            <button type="button" class="navbar-toggler" data-bs-toggle="collapse" data-bs-target="#navbarCollapse">
-                <span class="navbar-toggler-icon"></span>
-            </button>
+            <a href="#" class="navbar-brand d-flex align-items-center gap-2 justify-content-between justify-content-lg-start">
+                <img src="{{asset('../images/jdkoi-logo.png')}}" alt="">
+                <div class="merk">
+                    <p class="mb-0">JAPAN DIRECT</p>
+                    <p class="mb-0">KOI CENTER</p>
+                </div>
+                <button type="button" class="navbar-toggler" data-bs-toggle="collapse" data-bs-target="#navbarCollapse">
+                    <span class="navbar-toggler-icon"></span>
+                </button>
+            </a>
             <div class="collapse navbar-collapse" id="navbarCollapse">
                 <div class="navbar-nav gap-0 gap-lg-4 ms-auto">
                   	<a href="#" class="nav-item nav-link active">Home</a>
@@ -21,4 +26,3 @@
             </div>
         </div>
     </nav>
-</div>

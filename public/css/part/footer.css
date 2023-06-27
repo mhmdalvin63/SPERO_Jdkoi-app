@@ -1,0 +1,70 @@
+footer{
+    background-color: black;    
+    color: white;
+}
+.logo-jd img{
+    width: calc(12.5% + 0.8vmin);
+}
+.navigation_footer{
+    flex-wrap: wrap;
+}
+.navigation_footer a{
+    text-decoration: none;
+    color: white;
+    font-size: calc(80% + 1vmin);
+    font-weight: bolder;
+}
+.social_media h1{
+    font-size: calc(100% + 0.8vmin);
+}
+.facebook svg{
+    height: 1.5rem;
+}
+.privacy_cookie p{
+    font-size: calc(40% + 0.8vmin);
+}
+hr.solid {
+    margin-top: 1rem;
+    border-top: 2.5px solid #ffffff;
+}
+
+@media (max-width: 394px) {
+    .social_media h1{
+        font-size: calc(55% + 0.8vmin);
+    }
+    .navigation_footer a{
+        font-size: calc(35% + 1vmin);
+    }
+    .facebook p{
+        font-size: calc(45% + 1vmin);
+    }
+    .facebook svg{
+        height: 1rem;
+    }
+    .privacy_cookie p{
+        font-size: calc(30% + 0.8vmin);
+    }
+    .logo-jd img{
+        width: calc(25% + 0.8vmin);
+    }
+}
+@media (min-width: 394px) and (max-width: 768px) {
+    .social_media h1{
+        font-size: calc(55% + 0.8vmin);
+    }
+    .navigation_footer a{
+        font-size: calc(55% + 1vmin);
+    }
+    .facebook p{
+        font-size: calc(45% + 1vmin);
+    }
+    .facebook svg{
+        height: 1rem;
+    }
+    .privacy_cookie p{
+        font-size: calc(35% + 0.8vmin);
+    }
+    .logo-jd img{
+        width: calc(17.5% + 0.8vmin);
+    }
+}
