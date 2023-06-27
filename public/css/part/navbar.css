@@ -1,0 +1,8 @@
+
+.navbar-nav a{
+    color: white;
+    font-size: calc(75% + 0.8vmin);
+}
+.nav-link.active{
+    color: gold!important;
+}
