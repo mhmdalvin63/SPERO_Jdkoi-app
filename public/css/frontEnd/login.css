@@ -1,0 +1,42 @@
+/* body{
+    background-image: url('{{asset}}');
+} */
+.password-input-container {
+    position: relative;
+}
+.password-input {
+    padding-right: 32px;
+}
+.toggle-password {
+    position: absolute;
+    top: 30%;
+    right: 2.5%;
+    cursor: pointer;
+    z-index: 9999;
+}
+.logo img{
+    width: calc(25% + 0.8vmin)!important;
+}
+.logo h1{
+    font-size: calc(50% + 3vmin);
+}
+.btn-login .btn-danger{
+    font-size: calc(60% + 1vmin);
+    background-color: #ED1B24;
+}
+/* label{
+    font-size: calc(60% + 1vmin);
+}
+input{
+    font-size: calc(60% + 1vmin)!important;
+} */
+@media (max-width: 394px) {
+    .logo img{
+        width: calc(25% + 0.8vmin);
+    }
+}
+@media (min-width: 394px) and (max-width: 768px) {
+    .logo img{
+        width: calc(17.5% + 0.8vmin);
+    }
+}
