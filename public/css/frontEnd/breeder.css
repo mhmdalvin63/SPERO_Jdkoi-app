@@ -1,0 +1,60 @@
+body{
+    background-color: #101010;
+}
+/* .pageBidder{
+    transform: translateY(5rem);
+} */
+.bidder{
+    background-color: #2F2F2F;
+    height: max-content;
+}
+.lb_profile{
+    width: 40%;
+}
+.lb_profile img{
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    border-right: 3px solid yellow;
+}
+.lb_bio{
+    width: 60%;
+}
+.lb_bio h1{
+    font-size: calc(75% + 1vmin);
+}
+.lb_bio p{
+    font-size: calc(50% + 1vmin);
+}
+.lb_bio a{
+    font-size: calc(50% + 1vmin);
+    padding: .15rem 1rem;
+    line-height: .75rem;
+}
+.all-bidder{
+    font-size: calc(60% + 1vmin);
+}
+    @media (min-width: 992px){
+        .lb_bio p{
+            font-size: calc(30% + 1vmin);
+        }
+        .lb_bio a{
+            font-size: calc(30% + 1vmin);
+        }
+    }
+    @media (min-width: 768px) and (max-width: 992px){
+        .lb_bio p{
+            font-size: calc(30% + 1vmin);
+        }
+        .lb_bio a{
+            font-size: calc(30% + 1vmin);
+        }
+    }
+    @media (max-width: 400px){
+        .lb_bio p{
+            font-size: calc(30% + 1vmin);
+        }
+        .lb_bio a{
+            font-size: calc(30% + 1vmin);
+        }
+    }
