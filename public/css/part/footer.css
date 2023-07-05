@@ -1,6 +1,7 @@
 footer{
     background-color: black;    
     color: white;
+    transform: translateY(5rem);
 }
 .logo-jd img{
     width: calc(12.5% + 0.8vmin);
