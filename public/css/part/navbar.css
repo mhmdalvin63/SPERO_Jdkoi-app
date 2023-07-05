@@ -1,3 +1,6 @@
+nav{
+    z-index: 999;
+}
 #navbar_utama{
     background-color: black;
 }
@@ -12,12 +15,24 @@
     font-size: calc(60% + 0.8vmin);
 }
 .navbar-nav a{
+    text-decoration: none;
     color: white;
     font-size: calc(75% + 0.8vmin);
 }
-.nav-link.active{
-    color: gold!important;
+.active a{
+    color: gold;
 }
+.profileactive a{
+    padding: .15rem .5rem .5rem .55rem;
+    background-color: gold;
+    border-radius: 50%;
+}
+.navbar-nav li{
+    margin: auto auto;
+}
+/* .active{
+    color: gold!important;
+} */
 
 @media (max-width: 768px) {
     .navbar-brand{
