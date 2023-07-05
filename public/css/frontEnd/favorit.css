@@ -1,0 +1,53 @@
+body{
+    background-color: #101010;
+}
+/* .pageFavorit{
+    transform: translateY(6rem);
+} */
+.list_auction{
+    font-size: calc(75% + 3vmin);
+}
+.ikan{
+    background-color: #2F2F2F;
+    height: max-content;
+}
+.deskripsi{
+    width: 60%;
+}
+.deskripsi p{
+    font-size: calc(50% + 1vmin);
+}
+.gambar_ikan{
+    width: 40%;
+    /* height: 15rem; */
+}
+.ikan img{
+    height: 100%;
+    width: 100%;
+    object-fit: contain;
+    border-right: 5px solid yellow;
+}
+hr.style{
+    margin: .5rem 0 !important;
+	border-top: 1px solid #ffffff;
+}
+.btn-join{
+    font-size: calc(50% + 1vmin);
+    padding: .15rem 1rem;
+}
+@media (min-width: 768px) and (max-width: 992px){
+    .deskripsi p{
+        font-size: calc(30% + 1vmin);
+    }
+    .btn-join{
+        font-size: calc(30% + 1vmin);
+    }
+}
+@media (max-width: 400px){
+    .deskripsi p{
+        font-size: calc(30% + 1vmin);
+    }
+    .btn-join{
+        font-size: calc(30% + 1vmin);
+    }
+}
