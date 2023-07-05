@@ -1,0 +1,223 @@
+body{
+    background-color: #101010;
+}
+/* .pageHome{
+    transform: translateY(5rem);
+} */
+figure{
+    margin: 0;
+}
+.background_banner {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    object-position: left;
+    }
+    /* .hiasan_banner{
+        width: 80%;
+        height: 2rem;
+    } */
+    
+    .image {
+        height: calc(25rem - 5vh);
+        position: relative;
+    }
+    
+    .image figcaption{
+        position: absolute;
+        top: 20%;
+        left: 8rem;
+        bottom: 50%;
+    }
+    .image figcaption h1{
+        font-size: calc(75% + 4vmin);
+    }
+    .image figcaption p{
+        width: 60%;
+        font-size: calc(60% + 1vmin);
+    }
+    
+    @media (max-width: 425px){
+        .background_banner {
+            height: 85%;
+        }
+        .image figcaption{
+            left: 3rem;
+        }
+        .image figcaption p{
+            width: 90%;
+            font-size: calc(60% + 1vmin);
+        }
+    }
+    @media (min-width: 425px) and (max-width: 576px){
+        .image figcaption{
+            left: 4rem;
+        }
+        .image figcaption p{
+            width: 90%;
+            font-size: calc(60% + 1vmin);
+        }
+    }
+    @media (max-width: 768px){
+        .image figcaption{
+            left: 3rem;
+            top: 15%;
+        }
+        .image figcaption p{
+            width: 90%;
+            font-size: calc(60% + 1vmin);
+        }
+    }
+    @media (min-width: 576px) and (max-width: 968px){
+        .image figcaption{
+            left: 5rem;
+        }
+        .image figcaption p{
+            width: 90%;
+            font-size: calc(60% + 1vmin);
+        }
+    }
+
+#header{
+    /* background-position: ; */
+    width: 100vw;
+    height: 100%;
+    background-size: 100%;
+    object-fit: cover;
+    background-repeat: no-repeat;
+}
+#header .container{
+    padding: 3rem 0 8rem 0;
+}
+
+
+.event_content{
+    border-radius: .25rem;
+}
+.ec_top p{
+    font-size: calc(75% + 1vmin);
+}
+.ec_bottom p{
+    font-size: calc(60% + .8vmin);
+}
+hr.style{
+    margin: .25rem 0 !important;
+	border-top: 1px solid #ffffff;
+}
+
+#about{
+    background-color: #2F2F2F;
+}
+.about_text h2{
+    font-size: calc(75% + 3vmin);
+}
+.about_text p{
+    text-align: justify;
+    font-size: calc(60% + 1vmin);
+}
+.logo_home img{
+    /* width: calc(80% + 0.8vmin)!important; */
+    width: 80%;
+    height: fit-content;
+}
+@media (max-width: 768px) {
+    .logo_home img{
+        /* width: calc(80% + 0.8vmin)!important; */
+        width: 30%;
+        height: fit-content;
+    }
+}
+.list_auction{
+    font-size: calc(75% + 3vmin);
+}
+.ikan{
+    background-color: #2F2F2F;
+}
+.deskripsi{
+    width: 60%;
+}
+.deskripsi p{
+    font-size: calc(50% + 1vmin);
+}
+.gambar_ikan{
+    width: 40%;
+    /* height: 15rem; */
+}
+.ikan img{
+    height: 100%;
+    width: 100%;
+    object-fit: contain;
+    border-right: 5px solid yellow;
+}
+.btn-join{
+    font-size: calc(50% + 1vmin);
+    padding: .15rem 1rem;
+}
+
+
+.bidder{
+    background-color: #2F2F2F;
+    height: max-content;
+}
+.lb_profile{
+    width: 40%;
+}
+.lb_profile img{
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    border-right: 3px solid yellow;
+}
+.lb_bio{
+    width: 60%;
+}
+.lb_bio h1{
+    font-size: calc(75% + 1vmin);
+}
+.lb_bio p{
+    font-size: calc(50% + 1vmin);
+}
+.lb_bio a{
+    font-size: calc(50% + 1vmin);
+    padding: .15rem 1rem;
+    line-height: .75rem;
+}
+.all-bidder{
+    font-size: calc(60% + 1vmin);
+}
+    @media (min-width: 992px){
+        .lb_bio p{
+            font-size: calc(30% + 1vmin);
+        }
+        .lb_bio a{
+            font-size: calc(30% + 1vmin);
+        }
+    }
+    @media (min-width: 768px) and (max-width: 992px){
+        .deskripsi p{
+            font-size: calc(30% + 1vmin);
+        }
+        .btn-join{
+            font-size: calc(30% + 1vmin);
+        }
+        .lb_bio p{
+            font-size: calc(30% + 1vmin);
+        }
+        .lb_bio a{
+            font-size: calc(30% + 1vmin);
+        }
+    }
+    @media (max-width: 400px){
+        .deskripsi p{
+            font-size: calc(30% + 1vmin);
+        }
+        .btn-join{
+            font-size: calc(30% + 1vmin);
+        }
+        .lb_bio p{
+            font-size: calc(30% + 1vmin);
+        }
+        .lb_bio a{
+            font-size: calc(30% + 1vmin);
+        }
+    }
