@@ -1,0 +1,34 @@
+.logo-jd img{
+    width: calc(12.5% + 0.8vmin);
+}
+.logo-jd h1{
+    font-size: calc(60% + 3vmin);
+}
+.button-regis a{
+    font-size: calc(60% + 1vmin);
+}
+.button-regis p{
+    font-size: calc(60% + 1vmin);
+}
+label{
+    font-size: calc(60% + 1vmin);
+}
+input{
+    font-size: calc(60% + 1vmin)!important;
+}
+select{
+    font-size: calc(60% + 1vmin)!important;
+}
+@media (max-width: 394px) {
+    .logo-jd img{
+        width: calc(25% + 0.8vmin);
+    }
+    .button-regis p{
+        font-size: calc(50% + 1vmin);
+    }
+}
+@media (min-width: 394px) and (max-width: 768px) {
+    .logo-jd img{
+        width: calc(17.5% + 0.8vmin);
+    }
+}
