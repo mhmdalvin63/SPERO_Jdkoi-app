@@ -15,6 +15,7 @@ use Illuminate\Support\Facades\Route;
 
 Route::get('/', function () { return view('frontEnd.home'); });
 Route::get('auction', function () { return view('frontEnd.auction'); });
+Route::get('joinauction', function () { return view('frontEnd.joinAuction'); });
 Route::get('favorite', function () { return view('frontEnd.favorite'); });
 Route::get('breeder', function () { return view('frontEnd.breeder'); });
 Route::get('detailbidder', function () { return view('frontEnd.detailBidder'); });
